@@ -1,8 +1,9 @@
-function demo(input) {
-    let n1 = Number(input[0])
-    for (let i = 1; i <= 10; i++) {
-        let t = i * n1
-        console.log(`${i} * ${n1} = ${t}`)
+function demo() {
+    for (let a = 1; a <= 10; a++) {
+        for (let a0 = 1; a0 <= 10; a0++) {
+            let a1 = a * a0;
+            console.log(`${a} * ${a0} = ${a1}`);
+        }
     }
 }
-demo(["5"])
+demo()
